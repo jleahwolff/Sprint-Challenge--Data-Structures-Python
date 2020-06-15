@@ -20,12 +20,17 @@ duplicates = []  # Return the list of duplicates in this data structure
 
 # First, we have to build a tree.
 
+
+
+
+
 class BinarySearchTree:
     def __init__(self, value):
         self.value = value
         self.left = None
         self.right = None
 
+        
     # Insert the given value into the tree
     def insert(self, value):
         if value > self.value:
